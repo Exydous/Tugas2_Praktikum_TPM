@@ -19,7 +19,7 @@ class MainApp extends StatelessWidget {
         GetPage(
           name: "/product",
           page: () => ProductPage(),
-          binding: ProductBinding(),
+          binding: ProductBinding(), // test
         ),
 
         GetPage(name: "/detail", page: () => ProductDetailPage()),
